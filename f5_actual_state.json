@@ -1,0 +1,10 @@
+{
+  "virtual_server": {
+    "name": "vs_checkout_prod",
+    "ip": "10.20.30.40",
+    "port": 443,
+    "tls_version": "TLS1.2",
+    "ssl_profile": "/Common/clientssl_default",
+    "waf_profile": "/Common/asm_prod_policy"
+  }
+}
